@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Gatekeeper Redirector",
+  "version": "1.0",
+  "description": "Redirects to LeetCode until a solution is submitted, then grants 3 hours of free browsing.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["block.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+} 

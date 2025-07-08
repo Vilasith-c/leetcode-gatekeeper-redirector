@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LeetCode Gatekeeper Status</title>
+  <style>
+    body { font-family: Arial, sans-serif; min-width: 220px; padding: 16px; }
+    .timer { font-size: 1.2em; margin: 10px 0; }
+    a { color: #0073e6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="not-done" style="display:none;">
+    <div>Assigned Problem:</div>
+    <a id="problem-link" href="#" target="_blank"></a>
+    <div style="margin-top:10px; color:#b00;">Solve this problem to unlock browsing!</div>
+  </div>
+  <div id="freedom" style="display:none;">
+    <div style="color:green;">You have free browsing time left!</div>
+    <div class="timer" id="timer"></div>
+    <div>When the timer ends, you must solve a new problem to continue browsing.</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
