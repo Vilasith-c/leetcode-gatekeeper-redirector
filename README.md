@@ -1,38 +1,41 @@
-# LeetCode Gatekeeper Redirector
+Of course. Here is a complete `README.md` file for your extension, based on the files you provided.
 
-This Chrome extension helps you build a LeetCode habit by blocking all browsing until you solve a random LeetCode problem. After solving, you get 3 hours of free browsing time!
+## LeetCode Gatekeeper
 
-## Features
+A Chrome extension to help you build a consistent LeetCode habit by blocking distracting websites until you solve a problem.
 
-- **Random Problem Assignment:** When you try to visit any site (except LeetCode), you are redirected to a blocking page with a button to a random LeetCode problem.
-- **Solve to Unlock:** You must solve the assigned problem (get "Accepted") to unlock browsing.
-- **3-Hour Timer:** After a correct submission, you get 3 hours of unrestricted browsing. When the timer expires, you must solve a new problem.
-- **Blocking UI:** Friendly UI tells you what to do and lets you jump to your assigned problem.
-- **Popup UI:** Click the extension icon to see your current status, assigned problem, and time left.
-- **Robust Detection:** Timer only starts after a real, successful submission ("Accepted"), not just by viewing the problem.
+***
 
-## Setup
+### Features
 
-1. Clone or download this repository.
-2. Open Chrome and go to `chrome://extensions`.
-3. Enable "Developer mode" (top right).
-4. Click "Load unpacked" and select this folder.
+* **Focus Mode**: Blocks all non-LeetCode websites to keep you focused on your coding practice.
+* **Random Problem Assignment**: When your Browse is blocked, the extension assigns a random "Easy" LeetCode problem from a curated list for you to solve.
+* **Smart Unlock**: Automatically detects a correct "Accepted" submission on the LeetCode website to grant you Browse access.
+* **3-Hour Freedom Timer**: After solving a problem, you get a 3-hour window of unrestricted Browse. The popup shows a countdown timer for your convenience.
+* **Status Popup**: Click the extension icon at any time to see your currently assigned problem or check the time remaining on your freedom timer.
 
-## Usage
+***
 
-- Try to visit any website: you'll see a blocking page with a button to your assigned LeetCode problem.
-- Solve the problem and get "Accepted".
-- After submission, you have 3 hours of unrestricted browsing.
-- When the timer ends, the block returns and you must solve a new problem.
-- Click the extension icon to see your status and time left.
+### How It Works
 
-## How it Works
+1.  When you try to visit any website, the extension's background script intercepts the request.
+2.  If you don't have active "freedom time," you are redirected to a local block page. This page provides a button to navigate directly to your assigned LeetCode problem.
+3.  Once you submit a correct solution on LeetCode, a content script running on the page detects the "Accepted" status.
+4.  The content script notifies the background script, which grants you a 3-hour freedom timer and allows you to browse any website.
+5.  When the timer expires, the cycle repeats with a new problem.
 
-- The extension assigns you a random LeetCode problem and stores it.
-- It blocks all browsing (except LeetCode) until you solve the assigned problem.
-- The content script detects a real "Accepted" submission and notifies the background script to start the timer.
-- The blocking UI and popup UI show your current status and help you stay on track.
+***
 
----
+### Installation
 
-Feel free to contribute or suggest improvements!
+1.  Save all the extension files (`manifest.json`, `.js` files, `.html` files) into a single folder on your computer.
+2.  Open the Google Chrome browser and navigate to `chrome://extensions`.
+3.  In the top-right corner, enable **Developer mode**.
+4.  Click the **Load unpacked** button and select the folder where you saved the extension files.
+
+***
+
+### Usage
+
+* **To start**, simply try to browse any website. If your freedom timer is not active, the block page will appear automatically.
+* **To check your status**, click the extension's icon in the Chrome toolbar to see the popup with your assigned problem or remaining time.

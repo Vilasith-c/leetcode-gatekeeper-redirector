@@ -15,8 +15,18 @@ function showNotDone(problemSlug) {
   document.getElementById('not-done').style.display = '';
   document.getElementById('freedom').style.display = 'none';
   const link = document.getElementById('problem-link');
-  link.href = LEETCODE_URL + problemSlug + '/';
-  link.textContent = problemSlug ? problemSlug.replace(/-/g, ' ') : 'No problem assigned';
+
+  if (problemSlug) {
+    link.href = LEETCODE_URL + problemSlug + '/';
+    link.textContent = problemSlug.replace(/-/g, ' ');
+    link.style.pointerEvents = '';
+    link.style.color = '#0073e6';
+  } else {
+    link.href = '#';
+    link.textContent = 'Assigning problem, please wait...';
+    link.style.pointerEvents = 'none';
+    link.style.color = '#555';
+  }
 }
 
 function showFreedom(freedomUntil) {
@@ -48,4 +58,4 @@ chrome.storage.local.get([FREEDOM_KEY, ASSIGNED_PROBLEM_KEY], (result) => {
   } else {
     showNotDone(result[ASSIGNED_PROBLEM_KEY]);
   }
-}); 
+});
