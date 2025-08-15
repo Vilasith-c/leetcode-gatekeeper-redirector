@@ -3,6 +3,8 @@ const FREEDOM_KEY = "leetcode_freedom_until";
 const ASSIGNED_PROBLEM_KEY = "leetcode_assigned_problem_slug";
 const SOLVED_PROBLEMS_KEY = "leetcode_solved_problems";
 const STREAK_KEY = "leetcode_streak";
+const SELECTED_DIFFICULTY_KEY = "leetcode_selected_difficulty";
+const TIMER_DURATION_KEY = "leetcode_timer_duration";
 
 const problemCache = [
   /*// ... (your full list of problems remains here)
@@ -114,25 +116,26 @@ const problemCache = [
 
 ];
 
-async function getRandomProblem() {
+async function getRandomProblem(difficulty = 'Easy') {
   const result = await chrome.storage.local.get([SOLVED_PROBLEMS_KEY]);
   const solvedProblems = result[SOLVED_PROBLEMS_KEY] || [];
-  let availableProblems = problemCache.filter(p => !solvedProblems.includes(p.slug));
+  let availableProblems = problemCache.filter(p => !solvedProblems.includes(p.slug) && p.difficulty === difficulty);
+  if (availableProblems.length === 0) {
+    // If no problems of the selected difficulty are available, try to find any unsolved problem
+    availableProblems = problemCache.filter(p => !solvedProblems.includes(p.slug));
+  }
   if (availableProblems.length === 0) {
     await chrome.storage.local.set({ [SOLVED_PROBLEMS_KEY]: [] });
+    availableProblems = problemCache.filter(p => p.difficulty === difficulty);
+  }
+  if (availableProblems.length === 0) {
     availableProblems = problemCache;
   }
   return availableProblems[Math.floor(Math.random() * availableProblems.length)];
 }
 
-async function hasFreedom() {
-  const result = await chrome.storage.local.get([FREEDOM_KEY]);
-  const freedomUntil = result[FREEDOM_KEY];
-  return freedomUntil && freedomUntil > Date.now();
-}
-
-async function assignNewProblem() {
-  const problem = await getRandomProblem();
+async function assignNewProblem(difficulty = 'Easy') {
+  const problem = await getRandomProblem(difficulty);
   if (problem && problem.slug) {
     await chrome.storage.local.set({ [ASSIGNED_PROBLEM_KEY]: problem.slug });
     return problem.slug; // Return the slug
@@ -147,10 +150,10 @@ chrome.webNavigation.onBeforeNavigate.addListener(async (details) => {
 
   if (await hasFreedom()) return;
 
-  let { [ASSIGNED_PROBLEM_KEY]: problemSlug } = await chrome.storage.local.get(ASSIGNED_PROBLEM_KEY);
+  let { [ASSIGNED_PROBLEM_KEY]: problemSlug, [SELECTED_DIFFICULTY_KEY]: difficulty } = await chrome.storage.local.get([ASSIGNED_PROBLEM_KEY, SELECTED_DIFFICULTY_KEY]);
 
   if (!problemSlug) {
-    problemSlug = await assignNewProblem();
+    problemSlug = await assignNewProblem(difficulty);
   }
 
   if (problemSlug) {
@@ -164,7 +167,9 @@ chrome.webNavigation.onBeforeNavigate.addListener(async (details) => {
 
 chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
   if (message.type === "leetcode_submission") {
-    const freedomUntil = Date.now() + 3 * 60 * 60 * 1000;
+    const { [TIMER_DURATION_KEY]: duration } = await chrome.storage.local.get(TIMER_DURATION_KEY);
+    const freedomDuration = (duration || 180) * 60 * 1000;
+    const freedomUntil = Date.now() + freedomDuration;
 
     const { [STREAK_KEY]: streakData } = await chrome.storage.local.get(STREAK_KEY);
     const now = new Date();
@@ -194,6 +199,11 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
     });
 
     sendResponse({ success: true });
+  } else if (message.type === "generate_new_problem") {
+    const newProblemSlug = await assignNewProblem(message.difficulty);
+    if (newProblemSlug) {
+      chrome.runtime.sendMessage({ type: 'problem_assigned', slug: newProblemSlug });
+    }
   }
   return true;
 });
