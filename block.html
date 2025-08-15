@@ -1,24 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>LeetCode Gatekeeper</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; margin-top: 60px; }
-    .timer { font-size: 2em; margin: 20px 0; }
-    button { padding: 10px 20px; font-size: 1em; }
-  </style>
+    <title>Focus Mode</title>
+    <link rel="stylesheet" type="text/css" href="block.css">
 </head>
 <body>
-  <div id="not-done" style="display:none;">
-    <h2>Do the assigned LeetCode problem to continue browsing!</h2>
-    <button id="goto-problem">Go to Problem</button>
-  </div>
-  <div id="freedom" style="display:none;">
-    <h2>You have free browsing time left!</h2>
-    <div class="timer" id="timer"></div>
-    <p>When the timer ends, you must solve a new problem to continue browsing.</p>
-  </div>
-  <script src="block.js"></script>
+    <div class="container">
+        <h1>Time to Focus!</h1>
+        <p>Your browsing is currently blocked. Solve a LeetCode problem to unlock it.</p>
+        <p class="quote">"The best way to predict the future is to create it."</p>
+        <a href="#" id="leetcode-link" class="button">Go to LeetCode Problem</a>
+    </div>
+    <script src="block.js"></script>
 </body>
-</html> 
+</html>

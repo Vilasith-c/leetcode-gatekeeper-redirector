@@ -1,31 +1,49 @@
-// Helper: Detect submission by monitoring DOM changes
-let lastAccepted = false;
-const observer = new MutationObserver((mutations) => {
-  // Get the current problem's slug from the URL
-  const match = window.location.pathname.match(/problems\/([^\/]+)\//);
-  const currentSlug = match ? match[1] : null;
-  if (!currentSlug) return;
+console.log("LeetCode Gatekeeper: Content script active.");
 
-  // Check if 'Accepted' is present in the DOM
-  const accepted = Array.from(document.querySelectorAll("*"))
-    .some(el => el.textContent.includes("Accepted"));
+const observer = new MutationObserver((mutations, obs) => {
+  // Selectors for the "Accepted" message. LeetCode often uses one of these.
+  const successNodes = document.querySelectorAll('[data-e2e-locator="submission-result"], .text-green-s');
+  let isAccepted = false;
 
-  // Only trigger if 'Accepted' appears and wasn't there before
-  if (accepted && !lastAccepted) {
-    // Get the assigned problem slug from storage
-    chrome.storage.local.get(["leetcode_assigned_problem_slug"], (result) => {
-      if (result.leetcode_assigned_problem_slug === currentSlug) {
-        // Notify background script only if the assigned problem is solved
+  for (const node of successNodes) {
+    if (node.innerText.trim() === "Accepted") {
+      isAccepted = true;
+      break;
+    }
+  }
+
+  // If an "Accepted" solution is found on the page
+  if (isAccepted) {
+    console.log("LeetCode Gatekeeper: 'Accepted' status detected.");
+    
+    // Stop observing immediately to prevent sending multiple messages
+    obs.disconnect();
+
+    const match = window.location.pathname.match(/problems\/([^\/]+)\//);
+    const currentSlug = match ? match[1] : null;
+
+    if (!currentSlug) {
+      console.error("LeetCode Gatekeeper: Could not find problem slug in the URL.");
+      return;
+    }
+
+    // Check if the solved problem is the one that was assigned
+    chrome.storage.local.get("leetcode_assigned_problem_slug", (result) => {
+      const assignedSlug = result.leetcode_assigned_problem_slug;
+      console.log(`LeetCode Gatekeeper: Current slug: ${currentSlug}, Assigned slug: ${assignedSlug}`);
+
+      if (assignedSlug === currentSlug) {
+        console.log("LeetCode Gatekeeper: Correct problem solved! Unlocking Browse.");
+        // Notify the background script to start the freedom timer
         chrome.runtime.sendMessage({ type: "leetcode_submission" });
-        observer.disconnect();
+      } else {
+        console.log("LeetCode Gatekeeper: A problem was solved, but it wasn't the assigned one. Re-enabling observer.");
+        // If the wrong problem was solved, start observing again for another submission.
+        obs.observe(document.body, { childList: true, subtree: true });
       }
     });
   }
-  lastAccepted = accepted;
 });
 
-// Start observing the main content area
-const main = document.querySelector("body");
-if (main) {
-  observer.observe(main, { childList: true, subtree: true });
-} 
+// Start observing the page for changes
+observer.observe(document.body, { childList: true, subtree: true });
