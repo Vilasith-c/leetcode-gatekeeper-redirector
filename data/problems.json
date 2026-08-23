@@ -1,0 +1,2772 @@
+[
+  {
+    "id": 1,
+    "slug": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "hint": "Use a hash map to store complements as you iterate.",
+    "preview": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "companies": [
+      "Google",
+      "Amazon",
+      "Facebook"
+    ],
+    "frequency": 95
+  },
+  {
+    "id": 3,
+    "slug": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "hint": "Use a sliding window and a hash set to track seen characters.",
+    "preview": "Given a string s, find the length of the longest substring without repeating characters. Notice that the answer must be a substring, 'pwke' is a subsequence and not a substring.",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Bloomberg"
+    ],
+    "frequency": 88
+  },
+  {
+    "id": 1,
+    "slug": "easy-problem-1",
+    "title": "Easy Problem 1",
+    "difficulty": "Easy",
+    "tags": [
+      "Linked List",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 1. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 1, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-1/",
+    "companies": [
+      "Google"
+    ],
+    "frequency": 77
+  },
+  {
+    "id": 2,
+    "slug": "easy-problem-2",
+    "title": "Easy Problem 2",
+    "difficulty": "Easy",
+    "tags": [
+      "Stack",
+      "DP"
+    ],
+    "hint": "This is a generated hint for Easy Problem 2. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 2, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-2/",
+    "companies": [
+      "Lyft"
+    ],
+    "frequency": 72
+  },
+  {
+    "id": 3,
+    "slug": "easy-problem-3",
+    "title": "Easy Problem 3",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 3. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 3, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-3/",
+    "companies": [
+      "Apple",
+      "Microsoft",
+      "LinkedIn"
+    ],
+    "frequency": 84
+  },
+  {
+    "id": 4,
+    "slug": "easy-problem-4",
+    "title": "Easy Problem 4",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers"
+    ],
+    "hint": "This is a generated hint for Easy Problem 4. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 4, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-4/",
+    "companies": [
+      "Uber",
+      "Netflix",
+      "Amazon"
+    ],
+    "frequency": 67
+  },
+  {
+    "id": 5,
+    "slug": "easy-problem-5",
+    "title": "Easy Problem 5",
+    "difficulty": "Easy",
+    "tags": [
+      "Stack"
+    ],
+    "hint": "This is a generated hint for Easy Problem 5. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 5, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-5/",
+    "companies": [
+      "Apple"
+    ],
+    "frequency": 73
+  },
+  {
+    "id": 6,
+    "slug": "easy-problem-6",
+    "title": "Easy Problem 6",
+    "difficulty": "Easy",
+    "tags": [
+      "Sliding Window",
+      "Graph"
+    ],
+    "hint": "This is a generated hint for Easy Problem 6. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 6, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-6/",
+    "companies": [
+      "Microsoft",
+      "Apple"
+    ],
+    "frequency": 68
+  },
+  {
+    "id": 7,
+    "slug": "easy-problem-7",
+    "title": "Easy Problem 7",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "BFS",
+      "Matrix"
+    ],
+    "hint": "This is a generated hint for Easy Problem 7. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 7, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-7/",
+    "companies": [
+      "Microsoft",
+      "Lyft"
+    ],
+    "frequency": 7
+  },
+  {
+    "id": 8,
+    "slug": "easy-problem-8",
+    "title": "Easy Problem 8",
+    "difficulty": "Easy",
+    "tags": [
+      "Matrix",
+      "Bit Manipulation",
+      "Two Pointers"
+    ],
+    "hint": "This is a generated hint for Easy Problem 8. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 8, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-8/",
+    "companies": [
+      "LinkedIn"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": 9,
+    "slug": "easy-problem-9",
+    "title": "Easy Problem 9",
+    "difficulty": "Easy",
+    "tags": [
+      "DP"
+    ],
+    "hint": "This is a generated hint for Easy Problem 9. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 9, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-9/",
+    "companies": [
+      "Microsoft",
+      "Google"
+    ],
+    "frequency": 97
+  },
+  {
+    "id": 10,
+    "slug": "easy-problem-10",
+    "title": "Easy Problem 10",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 10. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 10, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-10/",
+    "companies": [
+      "Uber",
+      "Airbnb",
+      "Google"
+    ],
+    "frequency": 12
+  },
+  {
+    "id": 11,
+    "slug": "easy-problem-11",
+    "title": "Easy Problem 11",
+    "difficulty": "Easy",
+    "tags": [
+      "Stack",
+      "Queue"
+    ],
+    "hint": "This is a generated hint for Easy Problem 11. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 11, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-11/",
+    "companies": [
+      "Uber"
+    ],
+    "frequency": 92
+  },
+  {
+    "id": 12,
+    "slug": "easy-problem-12",
+    "title": "Easy Problem 12",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Queue",
+      "Sorting"
+    ],
+    "hint": "This is a generated hint for Easy Problem 12. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 12, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-12/",
+    "companies": [],
+    "frequency": 69
+  },
+  {
+    "id": 13,
+    "slug": "easy-problem-13",
+    "title": "Easy Problem 13",
+    "difficulty": "Easy",
+    "tags": [
+      "Binary Search",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 13. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 13, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-13/",
+    "companies": [
+      "Google",
+      "Uber",
+      "Microsoft"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": 14,
+    "slug": "easy-problem-14",
+    "title": "Easy Problem 14",
+    "difficulty": "Easy",
+    "tags": [
+      "Binary Tree",
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 14. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 14, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-14/",
+    "companies": [
+      "Lyft",
+      "Google"
+    ],
+    "frequency": 95
+  },
+  {
+    "id": 15,
+    "slug": "easy-problem-15",
+    "title": "Easy Problem 15",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Priority Queue"
+    ],
+    "hint": "This is a generated hint for Easy Problem 15. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 15, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-15/",
+    "companies": [
+      "Uber",
+      "Netflix",
+      "Facebook"
+    ],
+    "frequency": 24
+  },
+  {
+    "id": 16,
+    "slug": "easy-problem-16",
+    "title": "Easy Problem 16",
+    "difficulty": "Easy",
+    "tags": [
+      "BFS"
+    ],
+    "hint": "This is a generated hint for Easy Problem 16. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 16, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-16/",
+    "companies": [
+      "Netflix",
+      "Facebook"
+    ],
+    "frequency": 90
+  },
+  {
+    "id": 17,
+    "slug": "easy-problem-17",
+    "title": "Easy Problem 17",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation",
+      "Array"
+    ],
+    "hint": "This is a generated hint for Easy Problem 17. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 17, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-17/",
+    "companies": [
+      "Google",
+      "Uber",
+      "LinkedIn"
+    ],
+    "frequency": 26
+  },
+  {
+    "id": 18,
+    "slug": "easy-problem-18",
+    "title": "Easy Problem 18",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "Backtracking",
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 18. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 18, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-18/",
+    "companies": [],
+    "frequency": 52
+  },
+  {
+    "id": 19,
+    "slug": "easy-problem-19",
+    "title": "Easy Problem 19",
+    "difficulty": "Easy",
+    "tags": [
+      "Binary Tree",
+      "Math"
+    ],
+    "hint": "This is a generated hint for Easy Problem 19. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 19, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-19/",
+    "companies": [
+      "Facebook"
+    ],
+    "frequency": 78
+  },
+  {
+    "id": 20,
+    "slug": "easy-problem-20",
+    "title": "Easy Problem 20",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Easy Problem 20. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 20, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-20/",
+    "companies": [],
+    "frequency": 73
+  },
+  {
+    "id": 21,
+    "slug": "easy-problem-21",
+    "title": "Easy Problem 21",
+    "difficulty": "Easy",
+    "tags": [
+      "Sliding Window",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Easy Problem 21. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 21, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-21/",
+    "companies": [],
+    "frequency": 92
+  },
+  {
+    "id": 22,
+    "slug": "easy-problem-22",
+    "title": "Easy Problem 22",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "DP"
+    ],
+    "hint": "This is a generated hint for Easy Problem 22. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 22, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-22/",
+    "companies": [],
+    "frequency": 31
+  },
+  {
+    "id": 23,
+    "slug": "easy-problem-23",
+    "title": "Easy Problem 23",
+    "difficulty": "Easy",
+    "tags": [
+      "Tree",
+      "Binary Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 23. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 23, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-23/",
+    "companies": [],
+    "frequency": 26
+  },
+  {
+    "id": 24,
+    "slug": "easy-problem-24",
+    "title": "Easy Problem 24",
+    "difficulty": "Easy",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 24. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 24, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-24/",
+    "companies": [],
+    "frequency": 6
+  },
+  {
+    "id": 25,
+    "slug": "easy-problem-25",
+    "title": "Easy Problem 25",
+    "difficulty": "Easy",
+    "tags": [
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Easy Problem 25. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 25, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-25/",
+    "companies": [
+      "Google"
+    ],
+    "frequency": 39
+  },
+  {
+    "id": 26,
+    "slug": "easy-problem-26",
+    "title": "Easy Problem 26",
+    "difficulty": "Easy",
+    "tags": [
+      "Backtracking"
+    ],
+    "hint": "This is a generated hint for Easy Problem 26. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 26, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-26/",
+    "companies": [
+      "Facebook",
+      "Google"
+    ],
+    "frequency": 45
+  },
+  {
+    "id": 27,
+    "slug": "easy-problem-27",
+    "title": "Easy Problem 27",
+    "difficulty": "Easy",
+    "tags": [
+      "DFS"
+    ],
+    "hint": "This is a generated hint for Easy Problem 27. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 27, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-27/",
+    "companies": [
+      "Airbnb",
+      "Lyft"
+    ],
+    "frequency": 36
+  },
+  {
+    "id": 28,
+    "slug": "easy-problem-28",
+    "title": "Easy Problem 28",
+    "difficulty": "Easy",
+    "tags": [
+      "Trie",
+      "Stack",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Easy Problem 28. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 28, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-28/",
+    "companies": [
+      "Google",
+      "Uber"
+    ],
+    "frequency": 30
+  },
+  {
+    "id": 29,
+    "slug": "easy-problem-29",
+    "title": "Easy Problem 29",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 29. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 29, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-29/",
+    "companies": [
+      "Lyft",
+      "Uber"
+    ],
+    "frequency": 95
+  },
+  {
+    "id": 30,
+    "slug": "easy-problem-30",
+    "title": "Easy Problem 30",
+    "difficulty": "Easy",
+    "tags": [
+      "DP"
+    ],
+    "hint": "This is a generated hint for Easy Problem 30. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 30, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-30/",
+    "companies": [
+      "Microsoft",
+      "Facebook",
+      "Amazon"
+    ],
+    "frequency": 13
+  },
+  {
+    "id": 31,
+    "slug": "easy-problem-31",
+    "title": "Easy Problem 31",
+    "difficulty": "Easy",
+    "tags": [
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 31. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 31, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-31/",
+    "companies": [],
+    "frequency": 92
+  },
+  {
+    "id": 32,
+    "slug": "easy-problem-32",
+    "title": "Easy Problem 32",
+    "difficulty": "Easy",
+    "tags": [
+      "Stack",
+      "Recursion"
+    ],
+    "hint": "This is a generated hint for Easy Problem 32. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 32, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-32/",
+    "companies": [],
+    "frequency": 90
+  },
+  {
+    "id": 33,
+    "slug": "easy-problem-33",
+    "title": "Easy Problem 33",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "hint": "This is a generated hint for Easy Problem 33. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 33, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-33/",
+    "companies": [
+      "Netflix",
+      "Uber"
+    ],
+    "frequency": 22
+  },
+  {
+    "id": 34,
+    "slug": "easy-problem-34",
+    "title": "Easy Problem 34",
+    "difficulty": "Easy",
+    "tags": [
+      "Binary Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 34. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 34, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-34/",
+    "companies": [
+      "Amazon"
+    ],
+    "frequency": 43
+  },
+  {
+    "id": 35,
+    "slug": "easy-problem-35",
+    "title": "Easy Problem 35",
+    "difficulty": "Easy",
+    "tags": [
+      "Linked List",
+      "Hash Table",
+      "Dynamic Programming"
+    ],
+    "hint": "This is a generated hint for Easy Problem 35. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 35, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-35/",
+    "companies": [
+      "Microsoft",
+      "Facebook",
+      "Amazon"
+    ],
+    "frequency": 6
+  },
+  {
+    "id": 36,
+    "slug": "easy-problem-36",
+    "title": "Easy Problem 36",
+    "difficulty": "Easy",
+    "tags": [
+      "Binary Tree",
+      "Sliding Window",
+      "Math"
+    ],
+    "hint": "This is a generated hint for Easy Problem 36. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 36, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-36/",
+    "companies": [
+      "Apple"
+    ],
+    "frequency": 1
+  },
+  {
+    "id": 37,
+    "slug": "easy-problem-37",
+    "title": "Easy Problem 37",
+    "difficulty": "Easy",
+    "tags": [
+      "Matrix",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 37. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 37, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-37/",
+    "companies": [
+      "Google"
+    ],
+    "frequency": 25
+  },
+  {
+    "id": 38,
+    "slug": "easy-problem-38",
+    "title": "Easy Problem 38",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "Hash Table"
+    ],
+    "hint": "This is a generated hint for Easy Problem 38. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 38, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-38/",
+    "companies": [],
+    "frequency": 72
+  },
+  {
+    "id": 39,
+    "slug": "easy-problem-39",
+    "title": "Easy Problem 39",
+    "difficulty": "Easy",
+    "tags": [
+      "Queue"
+    ],
+    "hint": "This is a generated hint for Easy Problem 39. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 39, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-39/",
+    "companies": [
+      "Netflix",
+      "Google",
+      "Airbnb"
+    ],
+    "frequency": 54
+  },
+  {
+    "id": 40,
+    "slug": "easy-problem-40",
+    "title": "Easy Problem 40",
+    "difficulty": "Easy",
+    "tags": [
+      "Graph",
+      "Stack"
+    ],
+    "hint": "This is a generated hint for Easy Problem 40. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 40, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-40/",
+    "companies": [
+      "Apple"
+    ],
+    "frequency": 45
+  },
+  {
+    "id": 41,
+    "slug": "easy-problem-41",
+    "title": "Easy Problem 41",
+    "difficulty": "Easy",
+    "tags": [
+      "Binary Tree",
+      "Stack",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Easy Problem 41. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 41, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-41/",
+    "companies": [],
+    "frequency": 59
+  },
+  {
+    "id": 42,
+    "slug": "easy-problem-42",
+    "title": "Easy Problem 42",
+    "difficulty": "Easy",
+    "tags": [
+      "Backtracking"
+    ],
+    "hint": "This is a generated hint for Easy Problem 42. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 42, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-42/",
+    "companies": [
+      "Google"
+    ],
+    "frequency": 6
+  },
+  {
+    "id": 43,
+    "slug": "easy-problem-43",
+    "title": "Easy Problem 43",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers"
+    ],
+    "hint": "This is a generated hint for Easy Problem 43. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 43, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-43/",
+    "companies": [
+      "Netflix",
+      "Tesla",
+      "Google"
+    ],
+    "frequency": 6
+  },
+  {
+    "id": 44,
+    "slug": "easy-problem-44",
+    "title": "Easy Problem 44",
+    "difficulty": "Easy",
+    "tags": [
+      "Tree",
+      "DP"
+    ],
+    "hint": "This is a generated hint for Easy Problem 44. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 44, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-44/",
+    "companies": [
+      "Google"
+    ],
+    "frequency": 92
+  },
+  {
+    "id": 45,
+    "slug": "easy-problem-45",
+    "title": "Easy Problem 45",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation",
+      "Stack",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Easy Problem 45. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 45, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-45/",
+    "companies": [
+      "Uber",
+      "Tesla"
+    ],
+    "frequency": 47
+  },
+  {
+    "id": 46,
+    "slug": "easy-problem-46",
+    "title": "Easy Problem 46",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "Greedy"
+    ],
+    "hint": "This is a generated hint for Easy Problem 46. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 46, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-46/",
+    "companies": [
+      "Microsoft",
+      "Amazon",
+      "Airbnb"
+    ],
+    "frequency": 98
+  },
+  {
+    "id": 47,
+    "slug": "easy-problem-47",
+    "title": "Easy Problem 47",
+    "difficulty": "Easy",
+    "tags": [
+      "Sliding Window",
+      "Hash Table",
+      "Dynamic Programming"
+    ],
+    "hint": "This is a generated hint for Easy Problem 47. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 47, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-47/",
+    "companies": [],
+    "frequency": 30
+  },
+  {
+    "id": 48,
+    "slug": "easy-problem-48",
+    "title": "Easy Problem 48",
+    "difficulty": "Easy",
+    "tags": [
+      "Tree",
+      "DFS"
+    ],
+    "hint": "This is a generated hint for Easy Problem 48. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 48, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-48/",
+    "companies": [
+      "Lyft",
+      "Google",
+      "Amazon"
+    ],
+    "frequency": 89
+  },
+  {
+    "id": 49,
+    "slug": "easy-problem-49",
+    "title": "Easy Problem 49",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "DFS"
+    ],
+    "hint": "This is a generated hint for Easy Problem 49. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 49, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-49/",
+    "companies": [
+      "Lyft",
+      "Facebook"
+    ],
+    "frequency": 22
+  },
+  {
+    "id": 50,
+    "slug": "easy-problem-50",
+    "title": "Easy Problem 50",
+    "difficulty": "Easy",
+    "tags": [
+      "Stack",
+      "Heap"
+    ],
+    "hint": "This is a generated hint for Easy Problem 50. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 50, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-50/",
+    "companies": [
+      "Netflix",
+      "Google"
+    ],
+    "frequency": 55
+  },
+  {
+    "id": 51,
+    "slug": "easy-problem-51",
+    "title": "Easy Problem 51",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers",
+      "Stack",
+      "Math"
+    ],
+    "hint": "This is a generated hint for Easy Problem 51. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 51, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-51/",
+    "companies": [
+      "LinkedIn",
+      "Apple",
+      "Uber"
+    ],
+    "frequency": 60
+  },
+  {
+    "id": 52,
+    "slug": "easy-problem-52",
+    "title": "Easy Problem 52",
+    "difficulty": "Easy",
+    "tags": [
+      "Sliding Window",
+      "Backtracking",
+      "Priority Queue"
+    ],
+    "hint": "This is a generated hint for Easy Problem 52. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 52, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-52/",
+    "companies": [
+      "Microsoft",
+      "Amazon",
+      "LinkedIn"
+    ],
+    "frequency": 85
+  },
+  {
+    "id": 53,
+    "slug": "easy-problem-53",
+    "title": "Easy Problem 53",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "hint": "This is a generated hint for Easy Problem 53. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 53, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-53/",
+    "companies": [
+      "Lyft",
+      "Facebook",
+      "Microsoft"
+    ],
+    "frequency": 68
+  },
+  {
+    "id": 54,
+    "slug": "easy-problem-54",
+    "title": "Easy Problem 54",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Trie",
+      "Sliding Window"
+    ],
+    "hint": "This is a generated hint for Easy Problem 54. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 54, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-54/",
+    "companies": [],
+    "frequency": 36
+  },
+  {
+    "id": 55,
+    "slug": "easy-problem-55",
+    "title": "Easy Problem 55",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 55. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 55, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-55/",
+    "companies": [
+      "LinkedIn"
+    ],
+    "frequency": 51
+  },
+  {
+    "id": 56,
+    "slug": "easy-problem-56",
+    "title": "Easy Problem 56",
+    "difficulty": "Easy",
+    "tags": [
+      "Heap",
+      "Backtracking"
+    ],
+    "hint": "This is a generated hint for Easy Problem 56. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 56, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-56/",
+    "companies": [
+      "Uber",
+      "Netflix"
+    ],
+    "frequency": 9
+  },
+  {
+    "id": 57,
+    "slug": "easy-problem-57",
+    "title": "Easy Problem 57",
+    "difficulty": "Easy",
+    "tags": [
+      "Binary Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 57. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 57, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-57/",
+    "companies": [
+      "Google"
+    ],
+    "frequency": 81
+  },
+  {
+    "id": 58,
+    "slug": "easy-problem-58",
+    "title": "Easy Problem 58",
+    "difficulty": "Easy",
+    "tags": [
+      "Tree",
+      "Stack"
+    ],
+    "hint": "This is a generated hint for Easy Problem 58. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 58, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-58/",
+    "companies": [
+      "Airbnb",
+      "Netflix",
+      "Apple"
+    ],
+    "frequency": 87
+  },
+  {
+    "id": 59,
+    "slug": "easy-problem-59",
+    "title": "Easy Problem 59",
+    "difficulty": "Easy",
+    "tags": [
+      "Greedy"
+    ],
+    "hint": "This is a generated hint for Easy Problem 59. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 59, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-59/",
+    "companies": [
+      "Uber"
+    ],
+    "frequency": 22
+  },
+  {
+    "id": 60,
+    "slug": "easy-problem-60",
+    "title": "Easy Problem 60",
+    "difficulty": "Easy",
+    "tags": [
+      "Two Pointers"
+    ],
+    "hint": "This is a generated hint for Easy Problem 60. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 60, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-60/",
+    "companies": [],
+    "frequency": 72
+  },
+  {
+    "id": 61,
+    "slug": "easy-problem-61",
+    "title": "Easy Problem 61",
+    "difficulty": "Easy",
+    "tags": [
+      "Queue"
+    ],
+    "hint": "This is a generated hint for Easy Problem 61. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 61, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-61/",
+    "companies": [
+      "Lyft",
+      "Facebook"
+    ],
+    "frequency": 33
+  },
+  {
+    "id": 62,
+    "slug": "easy-problem-62",
+    "title": "Easy Problem 62",
+    "difficulty": "Easy",
+    "tags": [
+      "Stack",
+      "Binary Search",
+      "String"
+    ],
+    "hint": "This is a generated hint for Easy Problem 62. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 62, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-62/",
+    "companies": [
+      "Facebook",
+      "Tesla",
+      "Microsoft"
+    ],
+    "frequency": 71
+  },
+  {
+    "id": 63,
+    "slug": "easy-problem-63",
+    "title": "Easy Problem 63",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "DP"
+    ],
+    "hint": "This is a generated hint for Easy Problem 63. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 63, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-63/",
+    "companies": [
+      "Google"
+    ],
+    "frequency": 80
+  },
+  {
+    "id": 64,
+    "slug": "easy-problem-64",
+    "title": "Easy Problem 64",
+    "difficulty": "Easy",
+    "tags": [
+      "DP",
+      "Backtracking"
+    ],
+    "hint": "This is a generated hint for Easy Problem 64. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 64, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-64/",
+    "companies": [
+      "Airbnb",
+      "Microsoft"
+    ],
+    "frequency": 20
+  },
+  {
+    "id": 65,
+    "slug": "easy-problem-65",
+    "title": "Easy Problem 65",
+    "difficulty": "Easy",
+    "tags": [
+      "DFS",
+      "Array"
+    ],
+    "hint": "This is a generated hint for Easy Problem 65. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 65, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-65/",
+    "companies": [
+      "Facebook"
+    ],
+    "frequency": 83
+  },
+  {
+    "id": 66,
+    "slug": "easy-problem-66",
+    "title": "Easy Problem 66",
+    "difficulty": "Easy",
+    "tags": [
+      "BFS"
+    ],
+    "hint": "This is a generated hint for Easy Problem 66. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 66, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-66/",
+    "companies": [
+      "Netflix",
+      "Facebook",
+      "LinkedIn"
+    ],
+    "frequency": 99
+  },
+  {
+    "id": 67,
+    "slug": "easy-problem-67",
+    "title": "Easy Problem 67",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "hint": "This is a generated hint for Easy Problem 67. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 67, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-67/",
+    "companies": [],
+    "frequency": 82
+  },
+  {
+    "id": 68,
+    "slug": "easy-problem-68",
+    "title": "Easy Problem 68",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "hint": "This is a generated hint for Easy Problem 68. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 68, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-68/",
+    "companies": [
+      "Microsoft"
+    ],
+    "frequency": 18
+  },
+  {
+    "id": 69,
+    "slug": "easy-problem-69",
+    "title": "Easy Problem 69",
+    "difficulty": "Easy",
+    "tags": [
+      "BFS",
+      "Math",
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 69. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 69, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-69/",
+    "companies": [
+      "Microsoft",
+      "Apple"
+    ],
+    "frequency": 79
+  },
+  {
+    "id": 70,
+    "slug": "easy-problem-70",
+    "title": "Easy Problem 70",
+    "difficulty": "Easy",
+    "tags": [
+      "Binary Search",
+      "Binary Tree"
+    ],
+    "hint": "This is a generated hint for Easy Problem 70. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 70, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-70/",
+    "companies": [
+      "Uber",
+      "Apple",
+      "Microsoft"
+    ],
+    "frequency": 81
+  },
+  {
+    "id": 71,
+    "slug": "easy-problem-71",
+    "title": "Easy Problem 71",
+    "difficulty": "Easy",
+    "tags": [
+      "DP"
+    ],
+    "hint": "This is a generated hint for Easy Problem 71. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 71, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-71/",
+    "companies": [
+      "Google",
+      "Apple",
+      "Airbnb"
+    ],
+    "frequency": 60
+  },
+  {
+    "id": 72,
+    "slug": "easy-problem-72",
+    "title": "Easy Problem 72",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Linked List",
+      "Math"
+    ],
+    "hint": "This is a generated hint for Easy Problem 72. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 72, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-72/",
+    "companies": [
+      "Google",
+      "Amazon"
+    ],
+    "frequency": 74
+  },
+  {
+    "id": 73,
+    "slug": "easy-problem-73",
+    "title": "Easy Problem 73",
+    "difficulty": "Easy",
+    "tags": [
+      "Graph"
+    ],
+    "hint": "This is a generated hint for Easy Problem 73. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 73, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-73/",
+    "companies": [
+      "Microsoft"
+    ],
+    "frequency": 11
+  },
+  {
+    "id": 74,
+    "slug": "easy-problem-74",
+    "title": "Easy Problem 74",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 74. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 74, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-74/",
+    "companies": [
+      "Google",
+      "Amazon"
+    ],
+    "frequency": 40
+  },
+  {
+    "id": 75,
+    "slug": "easy-problem-75",
+    "title": "Easy Problem 75",
+    "difficulty": "Easy",
+    "tags": [
+      "Matrix",
+      "Array"
+    ],
+    "hint": "This is a generated hint for Easy Problem 75. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 75, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-75/",
+    "companies": [],
+    "frequency": 38
+  },
+  {
+    "id": 76,
+    "slug": "easy-problem-76",
+    "title": "Easy Problem 76",
+    "difficulty": "Easy",
+    "tags": [
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Easy Problem 76. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 76, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-76/",
+    "companies": [],
+    "frequency": 86
+  },
+  {
+    "id": 77,
+    "slug": "easy-problem-77",
+    "title": "Easy Problem 77",
+    "difficulty": "Easy",
+    "tags": [
+      "Dynamic Programming",
+      "Sliding Window",
+      "Priority Queue"
+    ],
+    "hint": "This is a generated hint for Easy Problem 77. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 77, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-77/",
+    "companies": [
+      "Lyft"
+    ],
+    "frequency": 87
+  },
+  {
+    "id": 78,
+    "slug": "easy-problem-78",
+    "title": "Easy Problem 78",
+    "difficulty": "Easy",
+    "tags": [
+      "Dynamic Programming",
+      "Trie"
+    ],
+    "hint": "This is a generated hint for Easy Problem 78. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 78, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-78/",
+    "companies": [
+      "Microsoft"
+    ],
+    "frequency": 85
+  },
+  {
+    "id": 79,
+    "slug": "easy-problem-79",
+    "title": "Easy Problem 79",
+    "difficulty": "Easy",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Easy Problem 79. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 79, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-79/",
+    "companies": [
+      "Facebook"
+    ],
+    "frequency": 24
+  },
+  {
+    "id": 80,
+    "slug": "easy-problem-80",
+    "title": "Easy Problem 80",
+    "difficulty": "Easy",
+    "tags": [
+      "Matrix",
+      "Linked List",
+      "Sorting"
+    ],
+    "hint": "This is a generated hint for Easy Problem 80. Focus on simple iteration.",
+    "preview": "Given an input for Easy Problem 80, return the expected output based on the constraints. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "url": "https://leetcode.com/problems/easy-problem-80/",
+    "companies": [
+      "Airbnb"
+    ],
+    "frequency": 72
+  },
+  {
+    "id": 81,
+    "slug": "medium-problem-1",
+    "title": "Medium Problem 1",
+    "difficulty": "Medium",
+    "tags": [
+      "Greedy",
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Medium Problem 1. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 1, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-1/",
+    "companies": [
+      "Amazon"
+    ],
+    "frequency": 92
+  },
+  {
+    "id": 82,
+    "slug": "medium-problem-2",
+    "title": "Medium Problem 2",
+    "difficulty": "Medium",
+    "tags": [
+      "BFS",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Medium Problem 2. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 2, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-2/",
+    "companies": [
+      "Google"
+    ],
+    "frequency": 87
+  },
+  {
+    "id": 83,
+    "slug": "medium-problem-3",
+    "title": "Medium Problem 3",
+    "difficulty": "Medium",
+    "tags": [
+      "Binary Tree",
+      "Array",
+      "Sorting"
+    ],
+    "hint": "This is a generated hint for Medium Problem 3. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 3, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-3/",
+    "companies": [
+      "Microsoft",
+      "Google",
+      "Lyft",
+      "Netflix"
+    ],
+    "frequency": 90
+  },
+  {
+    "id": 84,
+    "slug": "medium-problem-4",
+    "title": "Medium Problem 4",
+    "difficulty": "Medium",
+    "tags": [
+      "Dynamic Programming",
+      "DP",
+      "Trie",
+      "Heap"
+    ],
+    "hint": "This is a generated hint for Medium Problem 4. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 4, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-4/",
+    "companies": [
+      "Uber"
+    ],
+    "frequency": 6
+  },
+  {
+    "id": 85,
+    "slug": "medium-problem-5",
+    "title": "Medium Problem 5",
+    "difficulty": "Medium",
+    "tags": [
+      "Dynamic Programming",
+      "Graph",
+      "Recursion",
+      "DP"
+    ],
+    "hint": "This is a generated hint for Medium Problem 5. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 5, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-5/",
+    "companies": [
+      "Netflix",
+      "Uber",
+      "Airbnb",
+      "Tesla"
+    ],
+    "frequency": 16
+  },
+  {
+    "id": 86,
+    "slug": "medium-problem-6",
+    "title": "Medium Problem 6",
+    "difficulty": "Medium",
+    "tags": [
+      "Trie",
+      "DFS"
+    ],
+    "hint": "This is a generated hint for Medium Problem 6. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 6, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-6/",
+    "companies": [
+      "Google",
+      "Facebook"
+    ],
+    "frequency": 31
+  },
+  {
+    "id": 87,
+    "slug": "medium-problem-7",
+    "title": "Medium Problem 7",
+    "difficulty": "Medium",
+    "tags": [
+      "Stack",
+      "Tree",
+      "Sliding Window"
+    ],
+    "hint": "This is a generated hint for Medium Problem 7. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 7, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-7/",
+    "companies": [
+      "Facebook",
+      "Amazon",
+      "Tesla"
+    ],
+    "frequency": 18
+  },
+  {
+    "id": 88,
+    "slug": "medium-problem-8",
+    "title": "Medium Problem 8",
+    "difficulty": "Medium",
+    "tags": [
+      "DFS",
+      "Backtracking",
+      "Hash Table",
+      "Trie"
+    ],
+    "hint": "This is a generated hint for Medium Problem 8. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 8, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-8/",
+    "companies": [
+      "Google",
+      "Lyft",
+      "Amazon",
+      "LinkedIn"
+    ],
+    "frequency": 80
+  },
+  {
+    "id": 89,
+    "slug": "medium-problem-9",
+    "title": "Medium Problem 9",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "hint": "This is a generated hint for Medium Problem 9. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 9, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-9/",
+    "companies": [
+      "Google",
+      "Apple"
+    ],
+    "frequency": 55
+  },
+  {
+    "id": 90,
+    "slug": "medium-problem-10",
+    "title": "Medium Problem 10",
+    "difficulty": "Medium",
+    "tags": [
+      "Heap",
+      "Stack"
+    ],
+    "hint": "This is a generated hint for Medium Problem 10. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 10, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-10/",
+    "companies": [
+      "Google",
+      "Uber",
+      "Lyft",
+      "LinkedIn"
+    ],
+    "frequency": 23
+  },
+  {
+    "id": 91,
+    "slug": "medium-problem-11",
+    "title": "Medium Problem 11",
+    "difficulty": "Medium",
+    "tags": [
+      "Two Pointers",
+      "Math",
+      "Array"
+    ],
+    "hint": "This is a generated hint for Medium Problem 11. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 11, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-11/",
+    "companies": [
+      "Tesla"
+    ],
+    "frequency": 38
+  },
+  {
+    "id": 92,
+    "slug": "medium-problem-12",
+    "title": "Medium Problem 12",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Heap",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Medium Problem 12. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 12, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-12/",
+    "companies": [
+      "Facebook",
+      "Uber",
+      "Airbnb"
+    ],
+    "frequency": 43
+  },
+  {
+    "id": 93,
+    "slug": "medium-problem-13",
+    "title": "Medium Problem 13",
+    "difficulty": "Medium",
+    "tags": [
+      "Sorting",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Medium Problem 13. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 13, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-13/",
+    "companies": [
+      "Google",
+      "Lyft"
+    ],
+    "frequency": 16
+  },
+  {
+    "id": 94,
+    "slug": "medium-problem-14",
+    "title": "Medium Problem 14",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Recursion"
+    ],
+    "hint": "This is a generated hint for Medium Problem 14. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 14, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-14/",
+    "companies": [
+      "Lyft",
+      "Google",
+      "Netflix",
+      "LinkedIn"
+    ],
+    "frequency": 70
+  },
+  {
+    "id": 95,
+    "slug": "medium-problem-15",
+    "title": "Medium Problem 15",
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Sliding Window"
+    ],
+    "hint": "This is a generated hint for Medium Problem 15. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 15, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-15/",
+    "companies": [
+      "Apple"
+    ],
+    "frequency": 10
+  },
+  {
+    "id": 96,
+    "slug": "medium-problem-16",
+    "title": "Medium Problem 16",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Hash Table"
+    ],
+    "hint": "This is a generated hint for Medium Problem 16. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 16, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-16/",
+    "companies": [
+      "Lyft"
+    ],
+    "frequency": 60
+  },
+  {
+    "id": 97,
+    "slug": "medium-problem-17",
+    "title": "Medium Problem 17",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Stack",
+      "Array"
+    ],
+    "hint": "This is a generated hint for Medium Problem 17. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 17, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-17/",
+    "companies": [
+      "Google",
+      "Airbnb",
+      "Apple"
+    ],
+    "frequency": 20
+  },
+  {
+    "id": 98,
+    "slug": "medium-problem-18",
+    "title": "Medium Problem 18",
+    "difficulty": "Medium",
+    "tags": [
+      "Heap",
+      "Stack"
+    ],
+    "hint": "This is a generated hint for Medium Problem 18. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 18, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-18/",
+    "companies": [
+      "Lyft"
+    ],
+    "frequency": 24
+  },
+  {
+    "id": 99,
+    "slug": "medium-problem-19",
+    "title": "Medium Problem 19",
+    "difficulty": "Medium",
+    "tags": [
+      "Queue",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Medium Problem 19. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 19, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-19/",
+    "companies": [
+      "Netflix",
+      "Google",
+      "Amazon"
+    ],
+    "frequency": 36
+  },
+  {
+    "id": 100,
+    "slug": "medium-problem-20",
+    "title": "Medium Problem 20",
+    "difficulty": "Medium",
+    "tags": [
+      "Sliding Window",
+      "Hash Table",
+      "String",
+      "BFS"
+    ],
+    "hint": "This is a generated hint for Medium Problem 20. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 20, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-20/",
+    "companies": [
+      "Apple",
+      "Microsoft"
+    ],
+    "frequency": 80
+  },
+  {
+    "id": 101,
+    "slug": "medium-problem-21",
+    "title": "Medium Problem 21",
+    "difficulty": "Medium",
+    "tags": [
+      "Binary Tree",
+      "Two Pointers",
+      "Tree",
+      "Binary Search"
+    ],
+    "hint": "This is a generated hint for Medium Problem 21. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 21, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-21/",
+    "companies": [
+      "Microsoft",
+      "Netflix"
+    ],
+    "frequency": 31
+  },
+  {
+    "id": 102,
+    "slug": "medium-problem-22",
+    "title": "Medium Problem 22",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "String",
+      "Queue",
+      "Math"
+    ],
+    "hint": "This is a generated hint for Medium Problem 22. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 22, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-22/",
+    "companies": [
+      "Microsoft",
+      "Uber"
+    ],
+    "frequency": 14
+  },
+  {
+    "id": 103,
+    "slug": "medium-problem-23",
+    "title": "Medium Problem 23",
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Queue"
+    ],
+    "hint": "This is a generated hint for Medium Problem 23. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 23, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-23/",
+    "companies": [
+      "Airbnb",
+      "Uber"
+    ],
+    "frequency": 49
+  },
+  {
+    "id": 104,
+    "slug": "medium-problem-24",
+    "title": "Medium Problem 24",
+    "difficulty": "Medium",
+    "tags": [
+      "Stack",
+      "Math",
+      "Matrix",
+      "Priority Queue"
+    ],
+    "hint": "This is a generated hint for Medium Problem 24. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 24, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-24/",
+    "companies": [
+      "Microsoft"
+    ],
+    "frequency": 34
+  },
+  {
+    "id": 105,
+    "slug": "medium-problem-25",
+    "title": "Medium Problem 25",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "String",
+      "Math"
+    ],
+    "hint": "This is a generated hint for Medium Problem 25. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 25, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-25/",
+    "companies": [
+      "Lyft",
+      "Apple",
+      "Airbnb",
+      "Amazon"
+    ],
+    "frequency": 75
+  },
+  {
+    "id": 106,
+    "slug": "medium-problem-26",
+    "title": "Medium Problem 26",
+    "difficulty": "Medium",
+    "tags": [
+      "Stack",
+      "String"
+    ],
+    "hint": "This is a generated hint for Medium Problem 26. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 26, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-26/",
+    "companies": [
+      "Microsoft",
+      "Tesla",
+      "Airbnb",
+      "Facebook"
+    ],
+    "frequency": 68
+  },
+  {
+    "id": 107,
+    "slug": "medium-problem-27",
+    "title": "Medium Problem 27",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "hint": "This is a generated hint for Medium Problem 27. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 27, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-27/",
+    "companies": [
+      "LinkedIn"
+    ],
+    "frequency": 76
+  },
+  {
+    "id": 108,
+    "slug": "medium-problem-28",
+    "title": "Medium Problem 28",
+    "difficulty": "Medium",
+    "tags": [
+      "Trie",
+      "Queue",
+      "Stack",
+      "Sliding Window"
+    ],
+    "hint": "This is a generated hint for Medium Problem 28. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 28, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-28/",
+    "companies": [
+      "Tesla",
+      "Amazon"
+    ],
+    "frequency": 60
+  },
+  {
+    "id": 109,
+    "slug": "medium-problem-29",
+    "title": "Medium Problem 29",
+    "difficulty": "Medium",
+    "tags": [
+      "Sorting",
+      "Dynamic Programming"
+    ],
+    "hint": "This is a generated hint for Medium Problem 29. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 29, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-29/",
+    "companies": [
+      "Microsoft",
+      "Facebook"
+    ],
+    "frequency": 94
+  },
+  {
+    "id": 110,
+    "slug": "medium-problem-30",
+    "title": "Medium Problem 30",
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "DFS"
+    ],
+    "hint": "This is a generated hint for Medium Problem 30. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 30, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-30/",
+    "companies": [
+      "Google",
+      "Tesla",
+      "Amazon",
+      "Airbnb"
+    ],
+    "frequency": 23
+  },
+  {
+    "id": 111,
+    "slug": "medium-problem-31",
+    "title": "Medium Problem 31",
+    "difficulty": "Medium",
+    "tags": [
+      "DFS",
+      "Binary Search",
+      "Two Pointers"
+    ],
+    "hint": "This is a generated hint for Medium Problem 31. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 31, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-31/",
+    "companies": [
+      "Google",
+      "Lyft",
+      "Amazon",
+      "Tesla"
+    ],
+    "frequency": 75
+  },
+  {
+    "id": 112,
+    "slug": "medium-problem-32",
+    "title": "Medium Problem 32",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Graph",
+      "Sliding Window"
+    ],
+    "hint": "This is a generated hint for Medium Problem 32. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 32, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-32/",
+    "companies": [
+      "Tesla",
+      "Amazon",
+      "Netflix",
+      "Lyft"
+    ],
+    "frequency": 57
+  },
+  {
+    "id": 113,
+    "slug": "medium-problem-33",
+    "title": "Medium Problem 33",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Trie"
+    ],
+    "hint": "This is a generated hint for Medium Problem 33. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 33, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-33/",
+    "companies": [
+      "Tesla"
+    ],
+    "frequency": 39
+  },
+  {
+    "id": 114,
+    "slug": "medium-problem-34",
+    "title": "Medium Problem 34",
+    "difficulty": "Medium",
+    "tags": [
+      "Binary Tree",
+      "Stack",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "hint": "This is a generated hint for Medium Problem 34. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 34, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-34/",
+    "companies": [
+      "Google",
+      "Amazon"
+    ],
+    "frequency": 40
+  },
+  {
+    "id": 115,
+    "slug": "medium-problem-35",
+    "title": "Medium Problem 35",
+    "difficulty": "Medium",
+    "tags": [
+      "Trie",
+      "Binary Tree",
+      "Graph",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Medium Problem 35. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 35, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-35/",
+    "companies": [
+      "Netflix"
+    ],
+    "frequency": 60
+  },
+  {
+    "id": 116,
+    "slug": "medium-problem-36",
+    "title": "Medium Problem 36",
+    "difficulty": "Medium",
+    "tags": [
+      "Sliding Window",
+      "Heap"
+    ],
+    "hint": "This is a generated hint for Medium Problem 36. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 36, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-36/",
+    "companies": [
+      "Airbnb",
+      "Lyft",
+      "Google",
+      "Amazon"
+    ],
+    "frequency": 71
+  },
+  {
+    "id": 117,
+    "slug": "medium-problem-37",
+    "title": "Medium Problem 37",
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Bit Manipulation",
+      "Binary Search",
+      "Graph"
+    ],
+    "hint": "This is a generated hint for Medium Problem 37. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 37, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-37/",
+    "companies": [
+      "Amazon",
+      "Airbnb",
+      "Microsoft"
+    ],
+    "frequency": 91
+  },
+  {
+    "id": 118,
+    "slug": "medium-problem-38",
+    "title": "Medium Problem 38",
+    "difficulty": "Medium",
+    "tags": [
+      "Dynamic Programming",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Medium Problem 38. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 38, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-38/",
+    "companies": [
+      "Google",
+      "Tesla",
+      "Amazon"
+    ],
+    "frequency": 21
+  },
+  {
+    "id": 119,
+    "slug": "medium-problem-39",
+    "title": "Medium Problem 39",
+    "difficulty": "Medium",
+    "tags": [
+      "Binary Tree",
+      "Queue"
+    ],
+    "hint": "This is a generated hint for Medium Problem 39. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 39, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-39/",
+    "companies": [
+      "Microsoft"
+    ],
+    "frequency": 73
+  },
+  {
+    "id": 120,
+    "slug": "medium-problem-40",
+    "title": "Medium Problem 40",
+    "difficulty": "Medium",
+    "tags": [
+      "Sorting",
+      "Queue",
+      "Graph",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Medium Problem 40. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 40, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-40/",
+    "companies": [
+      "Apple"
+    ],
+    "frequency": 59
+  },
+  {
+    "id": 121,
+    "slug": "medium-problem-41",
+    "title": "Medium Problem 41",
+    "difficulty": "Medium",
+    "tags": [
+      "Trie",
+      "BFS"
+    ],
+    "hint": "This is a generated hint for Medium Problem 41. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 41, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-41/",
+    "companies": [
+      "Facebook"
+    ],
+    "frequency": 99
+  },
+  {
+    "id": 122,
+    "slug": "medium-problem-42",
+    "title": "Medium Problem 42",
+    "difficulty": "Medium",
+    "tags": [
+      "Binary Search",
+      "Recursion",
+      "Linked List",
+      "Stack"
+    ],
+    "hint": "This is a generated hint for Medium Problem 42. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 42, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-42/",
+    "companies": [
+      "Airbnb"
+    ],
+    "frequency": 48
+  },
+  {
+    "id": 123,
+    "slug": "medium-problem-43",
+    "title": "Medium Problem 43",
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Array",
+      "Matrix"
+    ],
+    "hint": "This is a generated hint for Medium Problem 43. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 43, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-43/",
+    "companies": [
+      "Airbnb"
+    ],
+    "frequency": 81
+  },
+  {
+    "id": 124,
+    "slug": "medium-problem-44",
+    "title": "Medium Problem 44",
+    "difficulty": "Medium",
+    "tags": [
+      "Queue",
+      "Two Pointers"
+    ],
+    "hint": "This is a generated hint for Medium Problem 44. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 44, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-44/",
+    "companies": [
+      "Uber",
+      "Netflix"
+    ],
+    "frequency": 17
+  },
+  {
+    "id": 125,
+    "slug": "medium-problem-45",
+    "title": "Medium Problem 45",
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Dynamic Programming"
+    ],
+    "hint": "This is a generated hint for Medium Problem 45. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 45, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-45/",
+    "companies": [
+      "Netflix",
+      "Apple",
+      "Microsoft"
+    ],
+    "frequency": 76
+  },
+  {
+    "id": 126,
+    "slug": "medium-problem-46",
+    "title": "Medium Problem 46",
+    "difficulty": "Medium",
+    "tags": [
+      "Stack",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "hint": "This is a generated hint for Medium Problem 46. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 46, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-46/",
+    "companies": [
+      "Apple"
+    ],
+    "frequency": 4
+  },
+  {
+    "id": 127,
+    "slug": "medium-problem-47",
+    "title": "Medium Problem 47",
+    "difficulty": "Medium",
+    "tags": [
+      "Queue",
+      "Tree",
+      "Linked List",
+      "Backtracking"
+    ],
+    "hint": "This is a generated hint for Medium Problem 47. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 47, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-47/",
+    "companies": [
+      "Netflix"
+    ],
+    "frequency": 46
+  },
+  {
+    "id": 128,
+    "slug": "medium-problem-48",
+    "title": "Medium Problem 48",
+    "difficulty": "Medium",
+    "tags": [
+      "Heap",
+      "Dynamic Programming"
+    ],
+    "hint": "This is a generated hint for Medium Problem 48. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 48, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-48/",
+    "companies": [
+      "Google",
+      "Facebook",
+      "Uber",
+      "Netflix"
+    ],
+    "frequency": 12
+  },
+  {
+    "id": 129,
+    "slug": "medium-problem-49",
+    "title": "Medium Problem 49",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Graph",
+      "Trie",
+      "Binary Tree"
+    ],
+    "hint": "This is a generated hint for Medium Problem 49. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 49, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-49/",
+    "companies": [
+      "LinkedIn",
+      "Lyft",
+      "Google"
+    ],
+    "frequency": 15
+  },
+  {
+    "id": 130,
+    "slug": "medium-problem-50",
+    "title": "Medium Problem 50",
+    "difficulty": "Medium",
+    "tags": [
+      "Queue",
+      "DP",
+      "Binary Tree",
+      "Two Pointers"
+    ],
+    "hint": "This is a generated hint for Medium Problem 50. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 50, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-50/",
+    "companies": [
+      "Uber",
+      "Google",
+      "Airbnb"
+    ],
+    "frequency": 58
+  },
+  {
+    "id": 131,
+    "slug": "medium-problem-51",
+    "title": "Medium Problem 51",
+    "difficulty": "Medium",
+    "tags": [
+      "Greedy",
+      "Graph",
+      "Backtracking"
+    ],
+    "hint": "This is a generated hint for Medium Problem 51. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 51, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-51/",
+    "companies": [
+      "Amazon"
+    ],
+    "frequency": 93
+  },
+  {
+    "id": 132,
+    "slug": "medium-problem-52",
+    "title": "Medium Problem 52",
+    "difficulty": "Medium",
+    "tags": [
+      "Sliding Window",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Medium Problem 52. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 52, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-52/",
+    "companies": [
+      "Google",
+      "Lyft",
+      "Amazon",
+      "Airbnb"
+    ],
+    "frequency": 19
+  },
+  {
+    "id": 133,
+    "slug": "medium-problem-53",
+    "title": "Medium Problem 53",
+    "difficulty": "Medium",
+    "tags": [
+      "Graph",
+      "Stack",
+      "Two Pointers"
+    ],
+    "hint": "This is a generated hint for Medium Problem 53. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 53, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-53/",
+    "companies": [
+      "Microsoft",
+      "Facebook",
+      "Uber",
+      "Netflix"
+    ],
+    "frequency": 45
+  },
+  {
+    "id": 134,
+    "slug": "medium-problem-54",
+    "title": "Medium Problem 54",
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Matrix",
+      "Two Pointers",
+      "Greedy"
+    ],
+    "hint": "This is a generated hint for Medium Problem 54. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 54, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-54/",
+    "companies": [
+      "Apple",
+      "Tesla",
+      "Google"
+    ],
+    "frequency": 77
+  },
+  {
+    "id": 135,
+    "slug": "medium-problem-55",
+    "title": "Medium Problem 55",
+    "difficulty": "Medium",
+    "tags": [
+      "Matrix",
+      "Bit Manipulation",
+      "Array"
+    ],
+    "hint": "This is a generated hint for Medium Problem 55. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 55, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-55/",
+    "companies": [
+      "LinkedIn",
+      "Microsoft",
+      "Amazon"
+    ],
+    "frequency": 49
+  },
+  {
+    "id": 136,
+    "slug": "medium-problem-56",
+    "title": "Medium Problem 56",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "String",
+      "Greedy"
+    ],
+    "hint": "This is a generated hint for Medium Problem 56. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 56, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-56/",
+    "companies": [
+      "Google",
+      "LinkedIn"
+    ],
+    "frequency": 9
+  },
+  {
+    "id": 137,
+    "slug": "medium-problem-57",
+    "title": "Medium Problem 57",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Trie",
+      "DP"
+    ],
+    "hint": "This is a generated hint for Medium Problem 57. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 57, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-57/",
+    "companies": [
+      "Lyft",
+      "Google",
+      "Netflix",
+      "Uber"
+    ],
+    "frequency": 83
+  },
+  {
+    "id": 138,
+    "slug": "medium-problem-58",
+    "title": "Medium Problem 58",
+    "difficulty": "Medium",
+    "tags": [
+      "Heap",
+      "Binary Search",
+      "Trie",
+      "Binary Tree"
+    ],
+    "hint": "This is a generated hint for Medium Problem 58. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 58, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-58/",
+    "companies": [
+      "Netflix",
+      "Airbnb"
+    ],
+    "frequency": 58
+  },
+  {
+    "id": 139,
+    "slug": "medium-problem-59",
+    "title": "Medium Problem 59",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Tree"
+    ],
+    "hint": "This is a generated hint for Medium Problem 59. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 59, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-59/",
+    "companies": [
+      "LinkedIn",
+      "Google"
+    ],
+    "frequency": 16
+  },
+  {
+    "id": 140,
+    "slug": "medium-problem-60",
+    "title": "Medium Problem 60",
+    "difficulty": "Medium",
+    "tags": [
+      "Stack",
+      "Tree",
+      "Greedy"
+    ],
+    "hint": "This is a generated hint for Medium Problem 60. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 60, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-60/",
+    "companies": [
+      "Lyft"
+    ],
+    "frequency": 65
+  },
+  {
+    "id": 141,
+    "slug": "medium-problem-61",
+    "title": "Medium Problem 61",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Hash Table",
+      "BFS",
+      "String"
+    ],
+    "hint": "This is a generated hint for Medium Problem 61. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 61, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-61/",
+    "companies": [
+      "LinkedIn",
+      "Google",
+      "Microsoft"
+    ],
+    "frequency": 20
+  },
+  {
+    "id": 142,
+    "slug": "medium-problem-62",
+    "title": "Medium Problem 62",
+    "difficulty": "Medium",
+    "tags": [
+      "Two Pointers",
+      "Binary Tree"
+    ],
+    "hint": "This is a generated hint for Medium Problem 62. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 62, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-62/",
+    "companies": [
+      "Google",
+      "Amazon",
+      "Airbnb",
+      "Tesla"
+    ],
+    "frequency": 13
+  },
+  {
+    "id": 143,
+    "slug": "medium-problem-63",
+    "title": "Medium Problem 63",
+    "difficulty": "Medium",
+    "tags": [
+      "Sliding Window",
+      "String",
+      "Backtracking",
+      "Matrix"
+    ],
+    "hint": "This is a generated hint for Medium Problem 63. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 63, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-63/",
+    "companies": [
+      "LinkedIn",
+      "Netflix",
+      "Uber",
+      "Airbnb"
+    ],
+    "frequency": 34
+  },
+  {
+    "id": 144,
+    "slug": "medium-problem-64",
+    "title": "Medium Problem 64",
+    "difficulty": "Medium",
+    "tags": [
+      "BFS",
+      "Linked List",
+      "Sorting"
+    ],
+    "hint": "This is a generated hint for Medium Problem 64. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 64, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-64/",
+    "companies": [
+      "LinkedIn",
+      "Amazon",
+      "Microsoft",
+      "Airbnb"
+    ],
+    "frequency": 84
+  },
+  {
+    "id": 145,
+    "slug": "medium-problem-65",
+    "title": "Medium Problem 65",
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Dynamic Programming",
+      "Array"
+    ],
+    "hint": "This is a generated hint for Medium Problem 65. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 65, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-65/",
+    "companies": [
+      "Apple",
+      "Uber",
+      "Amazon",
+      "LinkedIn"
+    ],
+    "frequency": 5
+  },
+  {
+    "id": 146,
+    "slug": "medium-problem-66",
+    "title": "Medium Problem 66",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Matrix",
+      "Binary Search",
+      "Recursion"
+    ],
+    "hint": "This is a generated hint for Medium Problem 66. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 66, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-66/",
+    "companies": [
+      "Lyft",
+      "Google",
+      "Airbnb",
+      "Facebook"
+    ],
+    "frequency": 72
+  },
+  {
+    "id": 147,
+    "slug": "medium-problem-67",
+    "title": "Medium Problem 67",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Graph",
+      "Sorting"
+    ],
+    "hint": "This is a generated hint for Medium Problem 67. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 67, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-67/",
+    "companies": [
+      "Uber"
+    ],
+    "frequency": 7
+  },
+  {
+    "id": 148,
+    "slug": "medium-problem-68",
+    "title": "Medium Problem 68",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Linked List"
+    ],
+    "hint": "This is a generated hint for Medium Problem 68. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 68, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-68/",
+    "companies": [
+      "LinkedIn"
+    ],
+    "frequency": 62
+  },
+  {
+    "id": 149,
+    "slug": "medium-problem-69",
+    "title": "Medium Problem 69",
+    "difficulty": "Medium",
+    "tags": [
+      "Binary Search",
+      "Recursion"
+    ],
+    "hint": "This is a generated hint for Medium Problem 69. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 69, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-69/",
+    "companies": [
+      "Facebook",
+      "Apple",
+      "Netflix",
+      "Airbnb"
+    ],
+    "frequency": 92
+  },
+  {
+    "id": 150,
+    "slug": "medium-problem-70",
+    "title": "Medium Problem 70",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "hint": "This is a generated hint for Medium Problem 70. Consider using a more advanced data structure.",
+    "preview": "Given a complex input for Medium Problem 70, return the expected output based on the constraints. This might require an optimized approach compared to brute force, possibly involving dynamic programming or graph traversal.",
+    "url": "https://leetcode.com/problems/medium-problem-70/",
+    "companies": [
+      "LinkedIn",
+      "Apple"
+    ],
+    "frequency": 59
+  }
+]

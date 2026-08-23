@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad Coder Pro - Blocked</title>
+    <link rel="stylesheet" href="block.css">
+</head>
+<body>
+    <div class="zone1">
+        <div class="streak-container">
+            <span id="streakDisplay">🔥 0 days</span>
+        </div>
+        <div class="daily-status">
+            <span id="solvedToday">Solved today: 0</span>
+        </div>
+    </div>
+
+    <div class="zone2">
+        <div class="problem-card">
+            <div class="card-header">
+                <span id="difficultyBadge" class="badge">Medium</span>
+                <div class="tags" id="tagsContainer"></div>
+            </div>
+            <h1 id="problemTitle" class="title">Problem Title</h1>
+            
+            <div class="preview-container">
+                <p id="problemPreview" class="preview-text">Problem description goes here...</p>
+                <div class="blur-overlay">
+                    <span class="overlay-text">Start solving →</span>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button id="solveBtn" class="primary-btn">Go Solve It →</button>
+                <div class="hint-container">
+                    <button id="hintToggle" class="text-btn">See hint</button>
+                    <p id="hintText" class="hint-text hidden"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="zone3">
+        <p class="blocked-info">You were trying to visit: <strong id="blockedDomain">example.com</strong></p>
+        <p id="identityStatement" class="identity-text">One problem. Then freedom.</p>
+        
+        <div class="override-container">
+            <button id="overrideBtn" class="override-btn">Use Override Token</button>
+        </div>
+    </div>
+
+    <script src="block.js"></script>
+</body>
+</html>

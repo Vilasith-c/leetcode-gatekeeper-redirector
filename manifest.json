@@ -1,32 +1,58 @@
 {
   "manifest_version": 3,
-  "name": "LeetCode Gatekeeper Redirector",
-  "version": "1.0",
-  "description": "Redirects to LeetCode until a solution is submitted, then grants 3 hours of free browsing.",
-  "permissions": [
-    "tabs",
-    "storage",
-    "webNavigation"
-  ],
-  "action": {
-    "default_popup": "popup.html"
+  "name": "Mad Coder Pro",
+  "version": "2.0.0",
+  "description": "PDF-driven LeetCode gatekeeper with whitelist tab control.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
+  "permissions": [
+    "storage",
+    "alarms",
+    "tabs",
+    "webNavigation",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "scripting",
+    "notifications"
+  ],
+  "host_permissions": ["<all_urls>"],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "src/background/background.js",
+    "type": "module"
   },
   "content_scripts": [
     {
-      "matches": ["https://leetcode.com/*"],
-      "js": ["content.js"]
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["src/content/content.js"],
+      "run_at": "document_idle"
     }
   ],
-  "host_permissions": [
-    "<all_urls>"
-  ],
+  "action": {
+    "default_popup": "src/popup/popup.html"
+  },
   "web_accessible_resources": [
     {
-      "resources": ["block.html"],
+      "resources": [
+        "src/block/block.html",
+        "src/block/block.css",
+        "src/block/block.js",
+        "data/problems.json",
+        "icons/*",
+        "libs/*"
+      ],
       "matches": ["<all_urls>"]
     }
-  ]
-} 
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "whitelist_rules",
+        "enabled": true,
+        "path": "data/dnr_rules.json"
+      }
+    ]
+  }
+}

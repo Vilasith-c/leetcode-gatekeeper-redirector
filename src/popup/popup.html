@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad Coder Pro</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Mad Coder Pro</h2>
+        <div id="badgeStatus" class="status-indicator"></div>
+    </div>
+
+    <div class="tabs">
+        <button class="tab-btn active" data-target="tab-dashboard">Dashboard</button>
+        <button class="tab-btn" data-target="tab-goals">Goals</button>
+        <button class="tab-btn" data-target="tab-whitelist">Whitelist</button>
+        <button class="tab-btn" data-target="tab-stats">Stats</button>
+    </div>
+
+    <!-- DASHBOARD TAB -->
+    <div id="tab-dashboard" class="tab-content active">
+        <button id="sessionToggleBtn" class="main-toggle start">Start Session</button>
+        
+        <div id="activeSessionPanel" class="hidden panel">
+            <div class="freedom-timer" id="freedomTimer">
+                <div class="timer-text">--:--</div>
+                <div class="timer-label">Freedom Remaining</div>
+            </div>
+
+            <div class="problem-card">
+                <div class="card-header">
+                    <span id="popupDiff" class="badge">Medium</span>
+                </div>
+                <div id="popupTitle" class="title">Two Sum</div>
+                <div class="actions row">
+                    <button id="goSolveBtn" class="btn primary">Go Solve</button>
+                    <button id="skipBtn" class="btn outline danger">Skip (-5 XP)</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-box">
+                <div class="stat-val" id="statSolved">0</div>
+                <div class="stat-lbl">Solved Today</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-val" id="statBlocked">0</div>
+                <div class="stat-lbl">Blocked Today</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-val" id="statStreak">0</div>
+                <div class="stat-lbl">Day Streak 🔥</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GOALS TAB -->
+    <div id="tab-goals" class="tab-content">
+        <div id="goalModeStatus" class="panel">
+            <p><strong>Current Mode:</strong> <span id="currentModeLabel">Random</span></p>
+            <p id="goalProgress" class="hidden">Progress: <span id="goalProgressText">0/0</span></p>
+            <button id="resetGoalsBtn" class="btn danger hidden" style="margin-top: 10px;">Reset Goals</button>
+        </div>
+
+        <div class="upload-area" id="uploadArea">
+            <p>Upload Study Plan (PDF)</p>
+            <input type="file" id="pdfInput" accept="application/pdf" hidden>
+            <button class="btn" onclick="document.getElementById('pdfInput').click()">Choose PDF</button>
+        </div>
+
+        <div id="parseProgress" class="hidden info-box"></div>
+
+        <div id="parseResults" class="hidden panel">
+            <h3>Detected Problems</h3>
+            <table class="results-table">
+                <thead><tr><th>Title</th><th>Diff</th><th>Conf</th></tr></thead>
+                <tbody id="resultsTbody"></tbody>
+            </table>
+            <div class="actions row" style="margin-top: 15px;">
+                <button id="confirmGoalsBtn" class="btn primary">Confirm Goals</button>
+                <button id="cancelGoalsBtn" class="btn outline">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHITELIST TAB -->
+    <div id="tab-whitelist" class="tab-content">
+        <div class="add-domain-row">
+            <input type="text" id="domainInput" placeholder="e.g. stackoverflow.com">
+            <button id="addDomainBtn" class="btn primary">+</button>
+        </div>
+        
+        <div class="preset-row">
+            <button id="presetDevDocs" class="btn outline small">Add Dev Docs</button>
+            <button id="presetSearch" class="btn outline small">Add Search</button>
+        </div>
+
+        <ul id="whitelistUl" class="domain-list"></ul>
+    </div>
+
+    <!-- STATS TAB -->
+    <div id="tab-stats" class="tab-content">
+        <div class="panel">
+            <h3>Level <span id="levelVal">1</span>: <span id="levelName">Beginner</span></h3>
+            <div class="xp-bar"><div id="xpProgress" class="xp-fill"></div></div>
+            <p style="font-size:12px; margin-top:5px; color:#94a3b8;">Total XP: <span id="totalXp">0</span></p>
+        </div>
+
+        <div class="panel row-between">
+            <div>
+                <h4>Freeze Tokens</h4>
+                <p style="font-size: 24px;">🧊 <span id="freezeCount">0</span></p>
+            </div>
+            <button id="useFreezeBtn" class="btn" disabled>Use Token</button>
+        </div>
+
+        <div class="panel">
+            <h4>Override Tokens</h4>
+            <p>Used this week: <strong id="overridesUsed">0</strong>/3</p>
+            <p style="font-size: 11px; color: #64748b; margin-top:5px;">Resets weekly.</p>
+        </div>
+    </div>
+
+    <script src="../../libs/pdf.min.js"></script>
+    <script type="module" src="popup.js"></script>
+</body>
+</html>
