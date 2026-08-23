@@ -3,3 +3,4 @@ build/
 .plasmo/
 .cache/
 *.log
+node_modules

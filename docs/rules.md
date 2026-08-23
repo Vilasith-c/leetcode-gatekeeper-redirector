@@ -16,6 +16,7 @@ Development must adhere strictly to the approved stack. Do not substitute or add
 - **PDF Parser**: `pdfjs-dist` (via npm)
 - **Testing**: Vitest (`vitest`)
 - **Quality Tooling**: ESLint + Prettier + Husky
+- **AI Agent Anti-Slop Filter**: `anti-slop` (via `.agents/skills/antislop`)
 
 ---
 
@@ -73,3 +74,27 @@ The AI coding agent must strictly obey the following guardrails:
   - Schemas reside strictly under `src/schemas/`.
 - **Prettier Formatting**:
   - 100 character print width, 2 spaces indentation, double quotes, trailing commas set to `none`.
+
+---
+
+## 6. Anti-Slop AI Quality Standard & Delivery Gate (`miqdadbadjuber/anti-slop`)
+
+All UI, copy, and code development must pass the **Anti-Slop AI Quality Gate** (`.agents/skills/antislop`):
+
+1. **Hard Gate Rules (R-01 to R-38)**:
+   - **R-02**: No em dashes (`—`) in UI copy or documentation text.
+   - **R-03**: Perfect mobile responsiveness (no overflow, min 44px tap targets).
+   - **R-17 & R-18**: No fake statistics, fake numbers, or fake AI testimonials.
+   - **R-25**: Strictly enforce WCAG AA contrast ratio (min 4.5:1 normal text, 3:1 large text).
+   - **R-26**: Every button, link, and interactive element must be functional or explicitly labeled as a working placeholder. No dead controls.
+   - **R-27**: Complete UI state handling (Empty, Loading, Error, Data).
+   - **R-32**: Full keyboard navigation accessibility (`Tab`, `Enter`, `Space`, `Escape`) with visible focus outlines.
+   - **R-36**: No fabricated compliance or performance claims.
+2. **Craftsmanship Standards (C-1 to C-5)**:
+   - **C-1 Intentionality**: Every visual and copy choice must have a clear, articulable reason.
+   - **C-2 Functional Completeness**: Every interactive component works 100%.
+   - **C-3 Content-Driven Composition**: Layouts adapt to actual product content, never filling stock AI templates.
+   - **C-4 Resilience**: Verified across all themes, states, and screen sizes.
+   - **C-5 Evidence Over Claims**: Facts and claims are 100% verifiable.
+3. **Delivery Gate Report**:
+   - Before shipping any UI or feature update, run the mandatory 4-block PASS/FAIL Delivery Gate audit from `.agents/skills/antislop/SKILL.md`.
